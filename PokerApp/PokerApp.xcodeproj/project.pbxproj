@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2B38ED625A55CD30051966D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B38ED525A55CD30051966D /* main.swift */; };
+		D2B38EEA25A56DBC0051966D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B38EE925A56DBC0051966D /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D2B38ED025A55CD30051966D /* CopyFiles */ = {
+		D2B38EE425A56DBC0051966D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D2B38ED225A55CD30051966D /* week1-2-CardClass */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1-2-CardClass"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2B38ED525A55CD30051966D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D2B38EE625A56DBC0051966D /* PokerApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokerApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2B38EE925A56DBC0051966D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2B38ECF25A55CD30051966D /* Frameworks */ = {
+		D2B38EE325A56DBC0051966D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D2B38EC925A55CD30051966D = {
+		D2B38EDD25A56DBC0051966D = {
 			isa = PBXGroup;
 			children = (
-				D2B38ED425A55CD30051966D /* week1-2-CardClass */,
-				D2B38ED325A55CD30051966D /* Products */,
+				D2B38EE825A56DBC0051966D /* PokerApp */,
+				D2B38EE725A56DBC0051966D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D2B38ED325A55CD30051966D /* Products */ = {
+		D2B38EE725A56DBC0051966D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2B38ED225A55CD30051966D /* week1-2-CardClass */,
+				D2B38EE625A56DBC0051966D /* PokerApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D2B38ED425A55CD30051966D /* week1-2-CardClass */ = {
+		D2B38EE825A56DBC0051966D /* PokerApp */ = {
 			isa = PBXGroup;
 			children = (
-				D2B38ED525A55CD30051966D /* main.swift */,
+				D2B38EE925A56DBC0051966D /* main.swift */,
 			);
-			path = "week1-2-CardClass";
+			path = PokerApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2B38ED125A55CD30051966D /* week1-2-CardClass */ = {
+		D2B38EE525A56DBC0051966D /* PokerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2B38ED925A55CD30051966D /* Build configuration list for PBXNativeTarget "week1-2-CardClass" */;
+			buildConfigurationList = D2B38EED25A56DBC0051966D /* Build configuration list for PBXNativeTarget "PokerApp" */;
 			buildPhases = (
-				D2B38ECE25A55CD30051966D /* Sources */,
-				D2B38ECF25A55CD30051966D /* Frameworks */,
-				D2B38ED025A55CD30051966D /* CopyFiles */,
+				D2B38EE225A56DBC0051966D /* Sources */,
+				D2B38EE325A56DBC0051966D /* Frameworks */,
+				D2B38EE425A56DBC0051966D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "week1-2-CardClass";
-			productName = "week1-2-CardClass";
-			productReference = D2B38ED225A55CD30051966D /* week1-2-CardClass */;
+			name = PokerApp;
+			productName = PokerApp;
+			productReference = D2B38EE625A56DBC0051966D /* PokerApp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D2B38ECA25A55CD30051966D /* Project object */ = {
+		D2B38EDE25A56DBC0051966D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					D2B38ED125A55CD30051966D = {
+					D2B38EE525A56DBC0051966D = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
 			};
-			buildConfigurationList = D2B38ECD25A55CD30051966D /* Build configuration list for PBXProject "week1-2-CardClass" */;
+			buildConfigurationList = D2B38EE125A56DBC0051966D /* Build configuration list for PBXProject "PokerApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = D2B38EC925A55CD30051966D;
-			productRefGroup = D2B38ED325A55CD30051966D /* Products */;
+			mainGroup = D2B38EDD25A56DBC0051966D;
+			productRefGroup = D2B38EE725A56DBC0051966D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2B38ED125A55CD30051966D /* week1-2-CardClass */,
+				D2B38EE525A56DBC0051966D /* PokerApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D2B38ECE25A55CD30051966D /* Sources */ = {
+		D2B38EE225A56DBC0051966D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2B38ED625A55CD30051966D /* main.swift in Sources */,
+				D2B38EEA25A56DBC0051966D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D2B38ED725A55CD30051966D /* Debug */ = {
+		D2B38EEB25A56DBC0051966D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -187,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		D2B38ED825A55CD30051966D /* Release */ = {
+		D2B38EEC25A56DBC0051966D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 			};
 			name = Release;
 		};
-		D2B38EDA25A55CD30051966D /* Debug */ = {
+		D2B38EEE25A56DBC0051966D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -250,7 +250,7 @@
 			};
 			name = Debug;
 		};
-		D2B38EDB25A55CD30051966D /* Release */ = {
+		D2B38EEF25A56DBC0051966D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -262,25 +262,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2B38ECD25A55CD30051966D /* Build configuration list for PBXProject "week1-2-CardClass" */ = {
+		D2B38EE125A56DBC0051966D /* Build configuration list for PBXProject "PokerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B38ED725A55CD30051966D /* Debug */,
-				D2B38ED825A55CD30051966D /* Release */,
+				D2B38EEB25A56DBC0051966D /* Debug */,
+				D2B38EEC25A56DBC0051966D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2B38ED925A55CD30051966D /* Build configuration list for PBXNativeTarget "week1-2-CardClass" */ = {
+		D2B38EED25A56DBC0051966D /* Build configuration list for PBXNativeTarget "PokerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D2B38EDA25A55CD30051966D /* Debug */,
-				D2B38EDB25A55CD30051966D /* Release */,
+				D2B38EEE25A56DBC0051966D /* Debug */,
+				D2B38EEF25A56DBC0051966D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D2B38ECA25A55CD30051966D /* Project object */;
+	rootObject = D2B38EDE25A56DBC0051966D /* Project object */;
 }
