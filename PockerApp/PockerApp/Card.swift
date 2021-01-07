@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Card {
+public class Card {
     // 포커에서의 모양은 4개가 있는데, 유니코드를 직접 쓰기엔 복잡하므로 enum을 활용하여 raw type을 String으로 선언하였다. char가 아니라 string인 이유는 정보를 출력할 때 편하게 문자열로 합치기 위해서이다.
     // 조커를 넣어주기 위해 조커도 Figure에 추가해 주었다.
     enum Figure : String {
