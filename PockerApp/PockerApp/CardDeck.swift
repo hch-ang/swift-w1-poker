@@ -46,11 +46,5 @@ public class CardDeck {
         cards.append(Card(figure: .joker, num: 100))
     }
     
-    func showAll() {
-        for card in cards {
-            print(card.description(), terminator:" ")
-        }
-        print("")
-    }
 }
 
