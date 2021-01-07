@@ -7,12 +7,12 @@
 
 import Foundation
 
-class CardDeck {
+public class CardDeck {
     
-    private var cards : [Card]
+    private var cards : [Card] = []
     
     init() {
-        self.cards = []
+        reset()
     }
     
     func count() -> Int {
@@ -20,6 +20,14 @@ class CardDeck {
     }
     
     func shuffle() {
+        // using Fisher-Yates Algorithm
+        let len = cards.count
+        for i in stride(from: len-1, to: 0, by: -1) {
+            let j = Int.random(in: 0...i)
+            let tempcard = cards[i]
+            cards[i] = cards[j]
+            cards[j] = tempcard
+        }
         return
     }
     
@@ -37,4 +45,6 @@ class CardDeck {
         }
         cards.append(Card(figure: .joker, num: 100))
     }
+    
 }
+

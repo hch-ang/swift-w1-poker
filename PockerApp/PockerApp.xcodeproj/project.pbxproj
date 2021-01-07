@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29C77B225A6A09200DDB714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
+		D29C77B525A6AE5400DDB714 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
 		D2D862B525A5B407005F3C64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
-		D2D862C525A5BD68005F3C64 /* TestToolsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862C425A5BD68005F3C64 /* TestToolsTest.swift */; };
+		D2D862C525A5BD68005F3C64 /* CardAndDeckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */; };
 		D2D862D125A5BFD8005F3C64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
 		D2D862D525A5E833005F3C64 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
 		D2D862D925A5EAB7005F3C64 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
@@ -30,7 +32,7 @@
 		D2D862B125A5B407005F3C64 /* PockerApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PockerApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D862B425A5B407005F3C64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D2D862C225A5BD68005F3C64 /* TestToolsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestToolsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D862C425A5BD68005F3C64 /* TestToolsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestToolsTest.swift; sourceTree = "<group>"; };
+		D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAndDeckTest.swift; sourceTree = "<group>"; };
 		D2D862C625A5BD68005F3C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D862D425A5E833005F3C64 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D2D862D825A5EAB7005F3C64 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		D2D862C325A5BD68005F3C64 /* TestToolsTest */ = {
 			isa = PBXGroup;
 			children = (
-				D2D862C425A5BD68005F3C64 /* TestToolsTest.swift */,
+				D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */,
 				D2D862C625A5BD68005F3C64 /* Info.plist */,
 			);
 			path = TestToolsTest;
@@ -190,7 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2D862D125A5BFD8005F3C64 /* main.swift in Sources */,
-				D2D862C525A5BD68005F3C64 /* TestToolsTest.swift in Sources */,
+				D29C77B225A6A09200DDB714 /* Card.swift in Sources */,
+				D29C77B525A6AE5400DDB714 /* CardDeck.swift in Sources */,
+				D2D862C525A5BD68005F3C64 /* CardAndDeckTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
