@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D29C77B225A6A09200DDB714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
-		D29C77B525A6AE5400DDB714 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
+		D29C77CC25A7EFFA00DDB714 /* DealerAndPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C77CB25A7EFFA00DDB714 /* DealerAndPlayer.swift */; };
+		D29C780D25A7F72C00DDB714 /* PlayerAndGameTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C780C25A7F72C00DDB714 /* PlayerAndGameTest.swift */; };
+		D29C782425A7F79900DDB714 /* CardAndDeckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C782325A7F79900DDB714 /* CardAndDeckTest.swift */; };
+		D29C782C25A7F83400DDB714 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
+		D29C783025A7F83400DDB714 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
+		D29C783425A7F8BD00DDB714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
+		D29C783825A7F8C000DDB714 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
+		D29C783C25A7F8C400DDB714 /* DealerAndPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C77CB25A7EFFA00DDB714 /* DealerAndPlayer.swift */; };
+		D29C784025A7F9D500DDB714 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
+		D29C784425A7F9D800DDB714 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
+		D29C784825A7F9DD00DDB714 /* DealerAndPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C77CB25A7EFFA00DDB714 /* DealerAndPlayer.swift */; };
+		D29C785725A8483200DDB714 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C785625A8483200DDB714 /* Util.swift */; };
+		D29C785825A8483200DDB714 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C785625A8483200DDB714 /* Util.swift */; };
+		D29C785925A8483200DDB714 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29C785625A8483200DDB714 /* Util.swift */; };
 		D2D862B525A5B407005F3C64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
-		D2D862C525A5BD68005F3C64 /* CardAndDeckTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */; };
-		D2D862D125A5BFD8005F3C64 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862B425A5B407005F3C64 /* main.swift */; };
 		D2D862D525A5E833005F3C64 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D425A5E833005F3C64 /* Card.swift */; };
 		D2D862D925A5EAB7005F3C64 /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D862D825A5EAB7005F3C64 /* CardDeck.swift */; };
 /* End PBXBuildFile section */
@@ -29,24 +39,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D29C77CB25A7EFFA00DDB714 /* DealerAndPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealerAndPlayer.swift; sourceTree = "<group>"; };
+		D29C780A25A7F72C00DDB714 /* PlayerAndGameTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerAndGameTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29C780C25A7F72C00DDB714 /* PlayerAndGameTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerAndGameTest.swift; sourceTree = "<group>"; };
+		D29C780E25A7F72C00DDB714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29C782125A7F79900DDB714 /* CardAndDeckTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardAndDeckTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29C782325A7F79900DDB714 /* CardAndDeckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAndDeckTest.swift; sourceTree = "<group>"; };
+		D29C782525A7F79900DDB714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D29C785625A8483200DDB714 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D2D862B125A5B407005F3C64 /* PockerApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PockerApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D862B425A5B407005F3C64 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		D2D862C225A5BD68005F3C64 /* TestToolsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestToolsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAndDeckTest.swift; sourceTree = "<group>"; };
-		D2D862C625A5BD68005F3C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D862D425A5E833005F3C64 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		D2D862D825A5EAB7005F3C64 /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D2D862AE25A5B407005F3C64 /* Frameworks */ = {
+		D29C780725A7F72C00DDB714 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2D862BF25A5BD68005F3C64 /* Frameworks */ = {
+		D29C781E25A7F79900DDB714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D862AE25A5B407005F3C64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,11 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D29C780B25A7F72C00DDB714 /* PlayerAndGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				D29C780C25A7F72C00DDB714 /* PlayerAndGameTest.swift */,
+				D29C780E25A7F72C00DDB714 /* Info.plist */,
+			);
+			path = PlayerAndGameTest;
+			sourceTree = "<group>";
+		};
+		D29C782225A7F79900DDB714 /* CardAndDeckTest */ = {
+			isa = PBXGroup;
+			children = (
+				D29C782325A7F79900DDB714 /* CardAndDeckTest.swift */,
+				D29C782525A7F79900DDB714 /* Info.plist */,
+			);
+			path = CardAndDeckTest;
+			sourceTree = "<group>";
+		};
 		D2D862A825A5B407005F3C64 = {
 			isa = PBXGroup;
 			children = (
 				D2D862B325A5B407005F3C64 /* PockerApp */,
-				D2D862C325A5BD68005F3C64 /* TestToolsTest */,
+				D29C780B25A7F72C00DDB714 /* PlayerAndGameTest */,
+				D29C782225A7F79900DDB714 /* CardAndDeckTest */,
 				D2D862B225A5B407005F3C64 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				D2D862B125A5B407005F3C64 /* PockerApp */,
-				D2D862C225A5BD68005F3C64 /* TestToolsTest.xctest */,
+				D29C780A25A7F72C00DDB714 /* PlayerAndGameTest.xctest */,
+				D29C782125A7F79900DDB714 /* CardAndDeckTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,22 +122,49 @@
 				D2D862B425A5B407005F3C64 /* main.swift */,
 				D2D862D425A5E833005F3C64 /* Card.swift */,
 				D2D862D825A5EAB7005F3C64 /* CardDeck.swift */,
+				D29C77CB25A7EFFA00DDB714 /* DealerAndPlayer.swift */,
+				D29C785625A8483200DDB714 /* Util.swift */,
 			);
 			path = PockerApp;
-			sourceTree = "<group>";
-		};
-		D2D862C325A5BD68005F3C64 /* TestToolsTest */ = {
-			isa = PBXGroup;
-			children = (
-				D2D862C425A5BD68005F3C64 /* CardAndDeckTest.swift */,
-				D2D862C625A5BD68005F3C64 /* Info.plist */,
-			);
-			path = TestToolsTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D29C780925A7F72C00DDB714 /* PlayerAndGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29C781125A7F72C00DDB714 /* Build configuration list for PBXNativeTarget "PlayerAndGameTest" */;
+			buildPhases = (
+				D29C780625A7F72C00DDB714 /* Sources */,
+				D29C780725A7F72C00DDB714 /* Frameworks */,
+				D29C780825A7F72C00DDB714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayerAndGameTest;
+			productName = PlayerAndGameTest;
+			productReference = D29C780A25A7F72C00DDB714 /* PlayerAndGameTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D29C782025A7F79900DDB714 /* CardAndDeckTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D29C782625A7F79900DDB714 /* Build configuration list for PBXNativeTarget "CardAndDeckTest" */;
+			buildPhases = (
+				D29C781D25A7F79900DDB714 /* Sources */,
+				D29C781E25A7F79900DDB714 /* Frameworks */,
+				D29C781F25A7F79900DDB714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardAndDeckTest;
+			productName = CardAndDeckTest;
+			productReference = D29C782125A7F79900DDB714 /* CardAndDeckTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D2D862B025A5B407005F3C64 /* PockerApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D862B825A5B407005F3C64 /* Build configuration list for PBXNativeTarget "PockerApp" */;
@@ -113,23 +182,6 @@
 			productReference = D2D862B125A5B407005F3C64 /* PockerApp */;
 			productType = "com.apple.product-type.tool";
 		};
-		D2D862C125A5BD68005F3C64 /* TestToolsTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2D862C725A5BD68005F3C64 /* Build configuration list for PBXNativeTarget "TestToolsTest" */;
-			buildPhases = (
-				D2D862BE25A5BD68005F3C64 /* Sources */,
-				D2D862BF25A5BD68005F3C64 /* Frameworks */,
-				D2D862C025A5BD68005F3C64 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestToolsTest;
-			productName = TestToolsTest;
-			productReference = D2D862C225A5BD68005F3C64 /* TestToolsTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,10 +191,13 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
-					D2D862B025A5B407005F3C64 = {
+					D29C780925A7F72C00DDB714 = {
 						CreatedOnToolsVersion = 12.3;
 					};
-					D2D862C125A5BD68005F3C64 = {
+					D29C782025A7F79900DDB714 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					D2D862B025A5B407005F3C64 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -161,13 +216,21 @@
 			projectRoot = "";
 			targets = (
 				D2D862B025A5B407005F3C64 /* PockerApp */,
-				D2D862C125A5BD68005F3C64 /* TestToolsTest */,
+				D29C780925A7F72C00DDB714 /* PlayerAndGameTest */,
+				D29C782025A7F79900DDB714 /* CardAndDeckTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D2D862C025A5BD68005F3C64 /* Resources */ = {
+		D29C780825A7F72C00DDB714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29C781F25A7F79900DDB714 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -177,30 +240,115 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D29C780625A7F72C00DDB714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C783C25A7F8C400DDB714 /* DealerAndPlayer.swift in Sources */,
+				D29C785825A8483200DDB714 /* Util.swift in Sources */,
+				D29C784425A7F9D800DDB714 /* CardDeck.swift in Sources */,
+				D29C782C25A7F83400DDB714 /* main.swift in Sources */,
+				D29C780D25A7F72C00DDB714 /* PlayerAndGameTest.swift in Sources */,
+				D29C784025A7F9D500DDB714 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29C781D25A7F79900DDB714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29C783025A7F83400DDB714 /* main.swift in Sources */,
+				D29C785925A8483200DDB714 /* Util.swift in Sources */,
+				D29C783425A7F8BD00DDB714 /* Card.swift in Sources */,
+				D29C783825A7F8C000DDB714 /* CardDeck.swift in Sources */,
+				D29C782425A7F79900DDB714 /* CardAndDeckTest.swift in Sources */,
+				D29C784825A7F9DD00DDB714 /* DealerAndPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2D862AD25A5B407005F3C64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D2D862D925A5EAB7005F3C64 /* CardDeck.swift in Sources */,
+				D29C77CC25A7EFFA00DDB714 /* DealerAndPlayer.swift in Sources */,
+				D29C785725A8483200DDB714 /* Util.swift in Sources */,
 				D2D862B525A5B407005F3C64 /* main.swift in Sources */,
 				D2D862D525A5E833005F3C64 /* Card.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2D862BE25A5BD68005F3C64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2D862D125A5BFD8005F3C64 /* main.swift in Sources */,
-				D29C77B225A6A09200DDB714 /* Card.swift in Sources */,
-				D29C77B525A6AE5400DDB714 /* CardDeck.swift in Sources */,
-				D2D862C525A5BD68005F3C64 /* CardAndDeckTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		D29C780F25A7F72C00DDB714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PlayerAndGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.PlayerAndGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D29C781025A7F72C00DDB714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PlayerAndGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.PlayerAndGameTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D29C782725A7F79900DDB714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CardAndDeckTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.CardAndDeckTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D29C782825A7F79900DDB714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CardAndDeckTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.CardAndDeckTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		D2D862B625A5B407005F3C64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -334,43 +482,27 @@
 			};
 			name = Release;
 		};
-		D2D862C825A5BD68005F3C64 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TestToolsTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.TestToolsTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		D2D862C925A5BD68005F3C64 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = TestToolsTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kakaocorp.TestToolsTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D29C781125A7F72C00DDB714 /* Build configuration list for PBXNativeTarget "PlayerAndGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29C780F25A7F72C00DDB714 /* Debug */,
+				D29C781025A7F72C00DDB714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D29C782625A7F79900DDB714 /* Build configuration list for PBXNativeTarget "CardAndDeckTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D29C782725A7F79900DDB714 /* Debug */,
+				D29C782825A7F79900DDB714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D2D862AC25A5B407005F3C64 /* Build configuration list for PBXProject "PockerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -385,15 +517,6 @@
 			buildConfigurations = (
 				D2D862B925A5B407005F3C64 /* Debug */,
 				D2D862BA25A5B407005F3C64 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2D862C725A5BD68005F3C64 /* Build configuration list for PBXNativeTarget "TestToolsTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2D862C825A5BD68005F3C64 /* Debug */,
-				D2D862C925A5BD68005F3C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -13,9 +13,9 @@ public class Card {
     }
     
     // 모양은 enum 타입인 Figure로 선언하였다.
-    private let figure : Figure
+    let figure : Figure
     // 숫자는 1~13중에 하나 이므로 편하게 정수로 선언하였다.
-    private let num : Int
+    let num : Int
     
     
     init(figure : Figure, num : Int) {
@@ -26,9 +26,9 @@ public class Card {
     // int to char 메소드를 통해 숫자를 출력할 문자열로 바꾼다
     func itos(num : Int) -> String {
         switch num {
-        case 1..<10:
+        case 2...10:
             return String(num)
-        case 10:
+        case 1:
             return "A"
         case 11:
             return "J"
@@ -49,4 +49,5 @@ public class Card {
             return self.figure.rawValue + self.itos(num: self.num)
         }
     }
+    
 }

@@ -9,8 +9,12 @@ import XCTest
 
 class PlayerAndGameTest: XCTestCase {
 
+    var player : Player?
+    var dealer : Dealer?
+
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        player = Player(playernum: 1)
+        dealer = Dealer()
     }
 
     override func tearDownWithError() throws {
@@ -28,5 +32,24 @@ class PlayerAndGameTest: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+    
+    
+    func testDealerCreateWell() throws {
+        XCTAssertNotNil(dealer)
+    }
+    
+    func testDealerResetDeck() throws {
+        dealer!.resetDeck()
+        XCTAssertEqual(dealer!.deck.count(), 53)
+    }
+    
+    func testDealerStartGame() throws {
+        dealer?.distribution(cardnum: 7, playernum: 3)
+        XCTAssertEqual(dealer?.cards.count, 7)
+        XCTAssertEqual(dealer?.players[0].cards.count, 7)
+        XCTAssertEqual(dealer?.players[1].cards.count, 7)
+        XCTAssertEqual(dealer?.players[2].cards.count, 7)
+    }
+    
+    
 }
